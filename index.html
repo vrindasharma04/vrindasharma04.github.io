@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google AdSense Verification -->
+    <meta name="google-adsense-account" content="ca-pub-1454778848862867">
+
     <title>To-Do List</title>
 
     <!-- Google Analytics -->
@@ -13,6 +17,10 @@
       gtag('js', new Date());
       gtag('config', 'G-29L26RQH4Z');
     </script>
+
+    <!-- Google AdSense JS -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1454778848862867"
+         crossorigin="anonymous"></script>
 
     <style>
         body {
@@ -75,6 +83,12 @@
             color: red;
             cursor: pointer;
         }
+
+        /* Optional: Ad space styling */
+        .ad-container {
+            margin-top: 15px;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -89,6 +103,19 @@
     </div>
 
     <ul id="taskList"></ul>
+
+    <!-- AdSense Auto Ads Example -->
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-1454778848862867"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
 </div>
 
 <script>
