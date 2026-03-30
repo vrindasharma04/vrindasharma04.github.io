@@ -46,6 +46,7 @@
 
         .input-section {
             display: flex;
+            flex-direction: column;
             gap: 10px;
         }
 
@@ -84,7 +85,6 @@
             cursor: pointer;
         }
 
-        /* Optional: Ad space styling */
         .ad-container {
             margin-top: 15px;
             text-align: center;
@@ -100,11 +100,24 @@
     <div class="input-section">
         <input type="text" id="taskInput" placeholder="Enter a task...">
         <button onclick="addTask()">Add</button>
+
+        <!-- Inline AdSense Ad -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-1454778848862867"
+                 data-ad-slot="6578404339"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
     </div>
 
     <ul id="taskList"></ul>
 
-    <!-- AdSense Auto Ads Example -->
+    <!-- Auto AdSense Ad at the bottom -->
     <div class="ad-container">
         <ins class="adsbygoogle"
              style="display:block"
